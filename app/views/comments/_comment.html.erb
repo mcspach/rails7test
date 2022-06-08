@@ -1,0 +1,5 @@
+<div id="<%= dom_id(comment) %>" class="">
+    <%= comment.content %>
+    <br><%= time_tag comment.created_at, "data.local": "time-ago" %>
+</div>
+<hr>
